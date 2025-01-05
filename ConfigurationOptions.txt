@@ -1,0 +1,49 @@
+# SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+# Possible log levels in descending order 
+# (lower levels include higher ones):
+# OFF:      no logs published
+# SEVERE:   error messages
+# WARNING:  warnings
+# INFO:     messages
+# FINE:     logs on main application level
+# FINER:    logs on central CPA algorithm level
+# FINEST:   logs published by specific CPAs
+# ALL:      debugging information
+# Care must be taken with levels of FINER or lower, as output files may
+# become quite large and memory usage might become an issue.
+
+# single levels to be excluded from being logged
+log.consoleExclude = []
+
+# log level of console output
+log.consoleLevel = Level.INFO
+
+# name of the log file
+log.file = "CPALog.txt"
+
+# single levels to be excluded from being logged
+log.fileExclude = []
+
+# log level of file output
+log.level = Level.OFF
+
+# Maximum size of log output strings before they will be truncated. Note that
+# truncation is not precise and truncation to small values has no effect. Use
+# 0 for disabling truncation completely.
+log.truncateSize = 10000
+
+# use colors for log messages on console
+log.useColors = true
+
+# disable all default output files
+# (any explicitly given file will still be written)
+output.disable = false
+
+# directory to put all output files in
+output.path = "output/"
+
+# base directory for all paths in default values
+rootDirectory = "."
