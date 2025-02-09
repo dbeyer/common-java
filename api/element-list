@@ -1,0 +1,9 @@
+org.sosy_lab.common
+org.sosy_lab.common.annotations
+org.sosy_lab.common.collect
+org.sosy_lab.common.configuration
+org.sosy_lab.common.configuration.converters
+org.sosy_lab.common.io
+org.sosy_lab.common.log
+org.sosy_lab.common.rationals
+org.sosy_lab.common.time
